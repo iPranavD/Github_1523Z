@@ -38,6 +38,7 @@ void setMidScoring();
 void setHighScoring();
 void setLowScoring();
 void setIdle();
+void wait();
 
 // Color sorting functions
 void toggleColorMode();

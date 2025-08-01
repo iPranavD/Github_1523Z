@@ -35,7 +35,8 @@ void redSideAuton() {
     scraper.set_value(false);
     chassis.moveToPoint(39, 5, 2000);
     chassis.turnToHeading(0, 2000);
-    
+
+
     printf("Red Side Autonomous Complete\n");
 }
 

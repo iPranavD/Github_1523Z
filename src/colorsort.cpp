@@ -55,6 +55,9 @@ void setIdle() {
     currentIntakeMode = IDLE;
 }
 
+void wait(int millisec){
+    pros::delay(millisec);
+}
 /**
  * Color sorting control functions - Single toggle through RED -> BLUE -> DISABLED
  */
